@@ -27,6 +27,15 @@
 //     (04) null  a  empty variable
 //     (05) undefine value
 
+
+// Concatenating Strings with Plus Operator
+
+// In JavaScript, when the + operator is used with a String value, 
+//it is called the concatenation operator. You can build a new string out of other strings by concatenating them together.
+//Example
+//const ourStr = "I come first. " + "I come second.";
+
+
 //     (01) string data type example  javascript  with  // Concatenating text strings
 //       let name = 'zeeshan'
 //       let age = 21
