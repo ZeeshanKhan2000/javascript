@@ -1,13 +1,13 @@
- // download vs code 
-// extentions vs code  
+ >   download vs code 
+ >  extentions vs code  
  
-// live server 
-// material icon them
-// auto close tag
-// auto rename tag
-// auto import ES6 jsx ts Tsx
-// beracket pair colorizer
-// html css support
-// javascript snippets
-// prettier code formater
-// node js
+(1)  live server 
+(2) material icon them
+(3) auto close tag
+(4) auto rename tag
+(5) auto import ES6 jsx ts Tsx
+(6) beracket pair colorizer
+(7) html css support
+(8) javascript snippets
+(9) prettier code formater
+(10) node js
