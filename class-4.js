@@ -5,6 +5,9 @@
 
 Topic no 4  javascript arrays  method  
 
+arrays DEFINITION
+ans : a colliction of different string ,number, variable , data type
+  
 
 // arrays method 
 
