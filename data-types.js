@@ -14,12 +14,25 @@ console.log(neme);
 
 difference between the 
 
-var   use globaly
-let   not use globaly use olny when need
+var   use globaly old way 
+let   not use globaly use olny when need and con be redeclare let is a block code variabale same variabla cant use i same block 
+ "block called " 
+{
+  let a = 5;
+  let a = 5;
+ console.log("a") can not be declare  
+ } 
+
+{
+  let a = 52;
+ console.log("a") can not be declare 
+ } 
+
+
 const  use only for the specific values which can not be change for the 
 
 
-data types
+data types /to find the data type we use typeoff
 1 premitive
     (01) string   use for character in always in side the ""
     (02) number  use for the value  without ""
