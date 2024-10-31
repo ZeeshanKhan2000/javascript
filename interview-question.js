@@ -5,6 +5,7 @@ We will focus on fundamental topics every candidate should be well-versed in to 
 Here are 30 React Fundamentals every frontend engineer should know. 
 
 1. How does the virtual DOM work in React, and why is it important?
+ The virtual DOM in React is a lightweight, in-memory representation of the real DOM, allowing React to efficiently manage and update the UI. When the state or props change, React creates a new virtual DOM, compares it with the previous version, and updates only the necessary parts of the actual DOM. This approach optimizes performance by minimizing costly DOM manipulations, making React fast and responsive even in complex applications.
 
 2. What are React Hooks, and how do they differ from class lifecycle methods?
 
