@@ -1,0 +1,56 @@
+var 
+Definition: The original way to declare variables in JavaScript, used before ES6.
+Scope: var is function-scoped, meaning it’s accessible throughout the function where it’s declared, but not outside that function. If declared outside any function, it becomes globally scoped.
+Hoisting: Variables declared with var are hoisted, meaning they are moved to the top of their scope. However, their value is undefined until the code assigns a value to them.
+Redeclaration: Variables declared with var can be redeclared within the same scope.
+
+  Example:
+  var name = "John";
+function example() {
+  var age = 30;
+  console.log(age); // Accessible within this function
+ }
+ console.log(name); // Accessible globally
+
+
+let
+Definition: Introduced in ES6, let is used for block-scoped variable declarations, which means it’s limited to the block where it’s defined (like within { } braces).
+Scope: Block-scoped, so it’s accessible only within the block it’s declared in. Useful for limiting variable scope to specific code blocks (e.g., inside loops or conditionals).
+Hoisting: Variables declared with let are hoisted but are not initialized. Using them before declaration results in a ReferenceError.
+Redeclaration: Variables declared with let cannot be redeclared in the same scope.
+
+Example:
+let color = "blue";
+if (true) {
+  let color = "green";
+  console.log(color); // "green" - scoped within this block
+}
+console.log(color); // "blue" - scoped outside the block
+
+const
+Definition: Also introduced in ES6, const is used to declare constants. Once assigned, a const variable cannot be reassigned.
+Scope: Block-scoped, like let, so it’s only accessible within the block where it’s declared.
+Hoisting: const variables are hoisted but not initialized, so accessing them before declaration also results in a ReferenceError.
+Reassignment: Variables declared with const cannot be reassigned after their initial assignment. However, if a const variable points to an object or array, the contents of that object or array can be modified.
+
+Example:
+  const age = 25;
+// age = 30; // Error: Cannot reassign a const variable
+
+const person = { name: "Alice" };
+person.name = "Bob"; // Allowed: modifying properties of the object
+console.log(person); // { name: "Bob" }
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
